@@ -5,8 +5,10 @@ import App from './App';
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import Home from './component/Home/Home.js';
 import About from './component/About/About.js';
-import Github from './component/Github/Github';
-import Contact from './component/Contact/Contact';
+import Github from './component/Github/Github.js';
+import Contact from './component/Contact/Contact.js';
+import User from './component/User/User.js';
+
 
 // const router = createBrowserRouter([
 //   {
@@ -42,9 +44,13 @@ const router=createBrowserRouter(
     <Route path='/' element={<App/>}>
     <Route path='' element={<Home/>}/>
     <Route path='Contact' element={<Contact/>}/>
-
+    
     <Route path='About' element={<About/>}/>
     <Route path='Github' element={<Github/>}/>
+    <Route path='Github' element={<Github/>}/>
+    <Route path='user/:userid' element={<User/>}/>
+
+
     </Route>
   )
 )
