@@ -1,6 +1,6 @@
 import React from 'react'
 
-function User() {
+function Github() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function User() {
   )
 }
 
-export default User
+export default Github
